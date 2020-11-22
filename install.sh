@@ -8,7 +8,7 @@
 PREFIX='~/.local'
 
 git clone --depth 1 \
-  https://github.com/dym-sh/y.git \
+  https://gitlab.com/dym-sh/y.git \
   $PREFIX/src/y/
 
 chmod +x $PREFIX/src/y/y.sh
