@@ -37,8 +37,12 @@ ln -s $PREFIX/src/y/y.sh \
 2. downloads entire discography if given root-domain or `/music` url
 
 ### twitter
-file-names are just twitter-username and tweet-number
+file-name is now twitter-username and tweet-id
 (instead of full text of a tweet, which can result in strings over 255 characters long, aborting the entire process)
+
+### reddit
+file-name is now subreddit, post-id, and url-slug
+(instead of full text of a title, which can result in strings over 255 characters long, aborting the entire process)
 
 ### youtube
 allows to set several predetermined filesystem-paths to keep file-categories separately:
@@ -50,6 +54,11 @@ allows to set several predetermined filesystem-paths to keep file-categories sep
 ### soundcloud
 1. occasional wav-files are converted to mp3 320kb/s
 2. artist is set based on url (instead of having none by default)
+
+
+## tags
+- #script
+- #bash
 
 
 ## mirrors
